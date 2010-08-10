@@ -1,10 +1,12 @@
 require 'redmine'
 
 Redmine::Plugin.register :redmine_remove_menus do
-  name 'Redmine Remove Menus plugin'
-  author 'Author name'
-  description 'This is a plugin for Redmine'
-  version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  name 'Remove Menus'
+  author 'Eric Davis'
+  url 'https://projects.littlestreamsoftware.com/projects/redmine-misc'
+  author_url 'http://www.littlestreamsoftware.com'
+  description 'Removes menus from Redmine'
+  version '0.1.0'
+
+  requires_redmine :version_or_higher => '0.9.0'
 end
