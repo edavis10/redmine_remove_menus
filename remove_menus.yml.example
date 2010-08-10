@@ -1,0 +1,37 @@
+# Copy this configuration file to:
+# RedmineRoot/config/remove_menus.yml
+#
+# Redmine has several different menus that contain menu items. To remove
+# a menu item, list it below under it's menu name.
+#
+# An example configuration to remove most Redmine menus is below, check:
+# lib/redmine.rb and the MenuManager section for an up to date list for your
+# Redmine version.
+#
+top_menu:
+- home
+- my_page
+- projects
+- administration
+- help
+- custom_menu_name_one
+account_menu:
+- login
+- register
+- my_account
+- logout
+- custom_menu_name_two
+admin_menu:
+- projects
+- users
+- groups
+- roles
+- trackers
+- issue_statuses
+- workflows
+- custom_fields
+- enumerations
+- settings
+- ldap_authentication
+- plugins
+- info
